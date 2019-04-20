@@ -1,0 +1,60 @@
+.aboutBlue{
+	background:#204ae0;
+}
+.aboutContent{
+    margin: 0 auto;
+    text-align: center;
+	left:0;
+	top: 60px;
+}
+.aboutUs h2{
+	color:#fff;
+}
+.widcentr{
+	max-width:650px;
+	margin:0 auto;
+	width:100%;
+	
+}
+.widcentr p{
+	color:#fff;   
+	margin-bottom: 20px;
+}
+.aboutYellow{
+	background:#ffca18;
+}
+.aboutMaroon{
+	background:#d60125;
+}
+.aboutpurple{
+	background:#ea8ecd;
+}
+.aboutLightyellow{
+	background:#e9c835;
+}
+.aboutGreen{
+	background:#8fda01;
+}
+.aboutLightBlue{
+	background:#3f7cd2;
+}
+.contentleft{
+	    width: 50%;
+    padding-left: 150px;  
+	padding-top: 160px;
+}
+.contentleft.padleft{
+	padding-left:0;
+}
+.contentleft p{
+	color:#fff;   
+	margin-bottom: 20px;
+	max-width: 400px;
+}
+.aboutUs .contentleft h2{
+	    font-size: 69px;
+    line-height: 1.2;
+}
+.rvedir{
+	flex-direction:row-reverse;
+}
