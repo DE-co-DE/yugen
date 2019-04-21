@@ -1,0 +1,52 @@
+.errorPage {
+    background: #b3a9b6;
+    height: 100vh;
+}
+
+.errorPage .heading {
+    font-size: 90px;
+}
+
+.errorPage .flexContent {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wid1260 {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.errorPage p {
+    color: #443d45;
+    margin-bottom: 20px;
+}
+
+.leftside {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.backhome {
+    color: #4c4a4a;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    .errorPage .flexContent {
+        flex-direction: column-reverse;
+    }
+    .leftside {
+        width: 85%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    .errorPage .heading {
+        font-size: 54px;
+    }
+    .errorPage {
+        height: 100%;
+    }
+}

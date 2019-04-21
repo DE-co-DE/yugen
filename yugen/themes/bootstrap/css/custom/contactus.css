@@ -1,0 +1,236 @@
+.page6 {
+    background: #fff;
+}
+
+.page7 .whiteSpace {
+    background: #fff;
+}
+
+.contact .getInTouch {
+    width: 100%;
+    background: url(../../images/contact-banner.png) 100% center no-repeat #fff;
+}
+
+.contact .contactForm {
+    max-width: 650px;
+}
+
+.contact .heading.white {
+    color: #4c4a4a;
+}
+
+.contact .lefthead li {
+    color: #434343;
+}
+
+.contact .righthead {
+    color: #434343;
+}
+
+.mapcontainer {
+    width: 65%;
+}
+
+.contactForm {
+    padding-top: 24px;
+    max-width: 560px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #4c4a4a;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #4c4a4a;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #4c4a4a;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #4c4a4a;
+}
+
+.inpt,
+.txtbox {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #a1a1a1;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'open_sansregular';
+    margin: 0;
+    color: #4c4a4a;
+}
+
+.inpt {
+    padding: 0 0 0 2%;
+    transition: all .3s ease-in;
+}
+
+.txtbox {
+    padding: 0 1%;
+    transition: all .3s ease-in;
+}
+
+.contactFormTy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inpt {
+    padding-bottom: 10px;
+}
+
+.contactForm .inpt:focus {
+    font-size: 24px;
+    transition: all .3s ease-in;
+}
+
+.contactForm .txtbox:focus {
+    font-size: 24px;
+    transition: all .3s ease-in;
+}
+
+.contactForm .flexBox {
+    justify-content: space-between;
+    margin-bottom: 28px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.op {
+    opacity: 0.1;
+}
+
+.contactFormTy .hd3s {
+    font-size: 84px;
+    color: #4c4a4a;
+    width: 100%;
+}
+
+.contactFormTy p {
+    color: #4c4a4a;
+}
+
+.contactForm .rowinner {
+    width: 46%;
+}
+
+.rowinner.messageBox {
+    width: 75%;
+}
+
+.messageBoxCont .rowinner:last-child {
+    width: 25%;
+}
+
+
+/*.contactForm .rowinner.wid-seventy {
+width: 80%;
+}
+
+.contactForm .rowinner.margin-left {
+margin-left: auto;
+width: 20%;
+}*/
+
+.contact .breadcrum {
+    padding: 0 0 0 40px;
+}
+
+.sendBtn {
+    font-family: 'AvenirLTStd-Medium';
+    background: #3ce5ad;
+    color: #000000;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    padding: 35px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: auto;
+}
+
+.contactForm .rowinner.txt {
+    width: 100%;
+}
+
+.errmsg {
+    color: #bb2828;
+    font-size: 12px;
+    display: block;
+    padding: 5px 0;
+    visibility: hidden;
+}
+
+@media only screen and (max-width:960px) {}
+
+@media only screen and (max-width:767px) {
+    .contact .contactForm {
+        max-width: 100%;
+        padding-top: 10px;
+    }
+    .inpt,
+    .txtbox {
+        font-size: 16px;
+    }
+    .contactForm {
+        padding-top: 10px;
+    }
+    .contactForm .rowinner,
+    .rowinner.messageBox,
+    .messageBoxCont .rowinner:last-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contactForm .flexBox {
+        margin-bottom: 0;
+    }
+    .page6 {
+        height: auto !important;
+    }
+    .sendBtn {
+        font-size: 16px;
+        display: inline-block;
+        margin-top: 0;
+        transform: none;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        border-radius: 0;
+    }
+    .page7 .flexContent {
+        flex-wrap: wrap;
+    }
+    .mapcontainer {
+        width: 100%;
+    }
+    .contact .breadcrum {
+        padding: 0 20px 40px 95px;
+        width: 100%;
+        left: inherit;
+        position: absolute;
+    }
+    .contact .getInTouch {
+        background-image: none;
+    }
+}

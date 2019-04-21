@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/blue/subtract</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon/blue/subtract" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="add-copy" transform="translate(7.000000, 18.000000)" fill="#ffffff" fill-rule="nonzero">
+            <path d="M23.6432623,0.75575367 L14.2441447,0.75575367 L10.7557537,0.755804497 L1.35658521,0.755804497 C0.928465417,0.75575367 0,1.33716911 0,2.49989835 C0,3.66262758 0.928465417,4.24409385 1.35658521,4.24409385 L10.7558045,4.24409385 L14.2441955,4.24409385 L23.6434148,4.24409385 C24.0714838,4.24409385 25,3.66272923 25,2.49989835 C25,1.33706746 24.0713821,0.75575367 23.6432623,0.75575367 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
