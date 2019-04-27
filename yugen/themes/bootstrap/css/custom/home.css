@@ -1085,7 +1085,7 @@
 .getInTouch {
     padding: 105px 40px 55px 80px;
     width: 65%;
-    background: url(../../images/contact-banner.png) 140% 107px no-repeat #fff;
+background: url(../../images/contact-banner.png) 100% 188px no-repeat #fff;
     position: relative;
 }
 
@@ -1095,8 +1095,8 @@
 
 .pagingInfo .prev {
     position: absolute;
-    left: 15px;
-    top: -165px;
+    left: -9px;
+    top: -74px;
     color: #444343;
     font-family: 'avenir_black';
     padding: 0;
@@ -1129,7 +1129,7 @@
 .pagingInfo .next {
     position: absolute;
     right: 10%;
-    top: -165px;
+    top: -74px;
     color: #444343;
     font-family: 'avenir_black';
     padding: 0;

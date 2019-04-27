@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 }
 
 .showcase-wrapper .show-case-info {
-    width: 52%;
+   width: 100%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
